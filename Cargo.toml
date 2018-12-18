@@ -1,7 +1,13 @@
 [package]
+<<<<<<< HEAD
 name = "testos"
 version = "0.1.0"
 authors = ["Nikola Tasić <ntasic7@gmail.com>"]
+=======
+name = "testos-nix"
+version = "0.1.0"
+authors = ["Nikola Tasic <ntasic7@gmail.com>"]
+>>>>>>> ubuntu
 edition = "2018"
 
 [profile.dev]
@@ -11,7 +17,14 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
+<<<<<<< HEAD
 bootloader = "0.3.11"
 
 [package.metadata.bootimage]
 default-target = "x86_64-unknown-none.json"
+=======
+bootloader = "0.3.4"
+
+[package.metadata.bootimage]
+default-target = "x86_64-unknown-none.json"
+>>>>>>> ubuntu
